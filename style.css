@@ -1,0 +1,97 @@
+@font-face {
+    src: url(fonts/Doto_Rounded-Regular.ttf);
+    font-family:doto;
+}
+@font-face {
+    src: url(fonts/roboto.ttf);
+    font-family:roboto;
+}
+
+body{
+    background-color:salmon;
+    border: 2px solid;
+    display: flow-root;
+}
+h1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px red, -3px -3px 5px blue;
+    
+}
+#p1{
+    color:palegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size:10px;
+    border: 2px dotted green;
+}
+#p2{
+    color:#545454;
+    font-size:1.5em;
+}
+#p3{
+    color:hsl(92, 83%, 14%);
+    font-family:doto;
+    font-size: medium;
+    border-bottom: 2px dashed #da0404;
+    border-top: 1px solid pink;
+    border-left: 5px dotted  lavender;
+    border-right: 2px solid moccasin;
+
+    border-radius: 20px;
+    
+}
+#p4{
+    color:rgba(153, 15, 38, 0.404);
+    font-family: roboto;
+}
+
+#box{
+    width:100px;
+    height: 100px;
+    background-color:wheat;
+    box-shadow: 5px 5px 5px black;
+}
+.boxx{
+    width: 200px;
+    height: 100px;
+    border:5px solid;
+    font-size: 3em;
+}
+#box1{
+    background-color: paleturquoise;
+    margin:auto;
+
+}
+#box2{
+    background-color: cadetblue;
+    margin:60px;
+}
+#img1{
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#px{
+    border: 2px solid;
+    height: 50px;
+    overflow: auto;
+    
+}
+#epo{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    display: inline;
+}
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: block;
+    
+}

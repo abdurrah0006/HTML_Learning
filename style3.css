@@ -1,0 +1,33 @@
+body{
+    background-image: url(m/p.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}        
+
+#co{
+    border: 2px solid green;
+}
+#co p{
+    background-color: aqua;
+}
+#co ~ p{
+    background-color: lavender;
+}
+
+#co + p{
+    background-color: violet;
+}
+
+#co > p{
+    background-color: blue;
+}
+
+a:link{
+    color: aquamarine;
+}
+a:hover{
+    color: gold;
+    font-size: 2em;
+}

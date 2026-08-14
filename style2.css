@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: burlywood;
+    height: 100vh;
+}
+#bo{
+    background-color: aquamarine;
+    border:2px solid purple;
+    padding: 25px;
+    height:auto;
+    width:50%;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+
+}
+#boo{
+    background-color: aqua;
+    border:2px solid purple;
+    padding: 25px;
+    height:auto;
+    width:50%;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+    
+}
+#o1{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+#o2{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
+
+}
+#o3{
+    background-color: rgb(219, 57, 57);
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#o4{
+    background-color: rgb(99, 10, 10);
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    top: 0px;
+  
+}
